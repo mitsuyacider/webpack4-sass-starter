@@ -1,8 +1,18 @@
+
+@import "./assets/scss/_base.scss";
+@import "./assets/scss/_variables.scss";
+
 body {background: black;}
 .container {
     width: 100vw;
     height: 100vh;
 }
+
+.title {
+    color:white;
+    font-size: $fontSize20;
+}
+
 #canvas {
     position: absolute;
     top: 50%;

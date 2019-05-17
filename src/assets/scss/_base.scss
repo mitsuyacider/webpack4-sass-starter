@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "SmartFont";
+    src: url('./assets/fonts/03SmartFont-P.ttf') format("truetype");
+}
+  
+html {
+    font-family: 'SmartFont';
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    background: #FAF8F8;
+}
+  
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+margin: 0;
+}
+
+@function pixel2Ratio($pixel){
+@return 100vw * $pixel / 1440px;
+}
+
+@function pixel2MobileRatio($pixel){
+@return 100vw * $pixel / 630px;
+}

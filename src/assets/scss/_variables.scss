@@ -1,0 +1,22 @@
+$textColor: #E75415;
+$background: #E03B20;
+
+// NOTE: Navigation Container
+$navContainerHeight: 100vw * 114px / 1440px;
+$logoWidth: 100vw * 112px / 1440px;
+$logoHeight: 100vw * 66px / 1440px;
+$menuSpace: 100vw * 71px / 1440px;
+
+$stepHeight: 239px;
+$stepSpace: 60px;
+
+// NOTE: Font
+$fontSize10: pixel2Ratio(10px);
+$fontSize16: pixel2Ratio(16px);
+$fontSize20: pixel2Ratio(20px);
+$fontSize25: pixel2Ratio(25px);
+$fontSize32: pixel2Ratio(32px);
+$fontSize50: pixel2Ratio(50px);
+
+$mobileTextSpace: 4px;
+$mobileLineHeight: 18px;
